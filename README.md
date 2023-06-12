@@ -1,8 +1,22 @@
 # phaser3-vite
+
 template for phaser 3.6 and vita bundler
 
-## usage
+## install
+
+Use nvm for install node LTS and then install
+
+- nvm install --lts
+- npm install
+
+## config
+
 setting vertical or orizontal in src/conf/config.js
 
-- use 1024 as horizontal fixed base and dinamic vertical for horizontal game
-- use 576 as vertical fixed 
+- use 1024 as horizontal fixed base and dynamic vertical for horizontal games
+- use 576 as horizontal fixed base and dynamic vertical for vertical games
+
+## usage
+
+- *npm run dev* for local dev server
+- *npm run build* for building the dist folder
